@@ -336,7 +336,7 @@
       
       const appointmentTime = `${hourInput}:${minuteInput}`;
       
-      const message = `Kolay Gelsin, randevu almak istiyorum.\n\n Adı Soyadı:    ${firstName} ${lastName}\n İstediğim İşlem:    ${service}\n İstediğim Gün:    ${day}\n İstediğim Saat:    ${appointmentTime} `;      
+      const message = `Kolay Gelsin, randevu almak istiyorum.\n Adı Soyadı:    ${firstName} ${lastName}\n İstediğim İşlem:    ${service}\n İstediğim Gün:    ${day}\n İstediğim Saat:    ${appointmentTime} `;      
       
       const whatsappUrl = `https://wa.me/${barberPhone}?text=${encodeURIComponent(message)}`;
       window.open(whatsappUrl, "_blank");
